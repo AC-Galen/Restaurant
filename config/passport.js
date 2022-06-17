@@ -20,7 +20,6 @@ module.exports = app => {
       .catch(err => done(null, false))
   }))
   passport.serializeUser((user, done) => {
-    console.log(user)
     done(null, user.id)
   })
   passport.deserializeUser((id, done) => {
