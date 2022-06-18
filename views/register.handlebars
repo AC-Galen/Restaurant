@@ -1,7 +1,7 @@
 <div class="row mt-5">
   <div class="col-md-6 m-auto">
     <div class="card card-body">
-      <h1 class="text-center mt-3">Register</h1>
+      <h1 class="text-center mt-3">註冊帳戶</h1>
 
       <form action="/users/register" method="POST">
         <div class="mb-3">
@@ -21,11 +21,11 @@
             <label for="confirmPassword" class="mb-2">Confirm Password</label>
             <input type="password" name="confirmPassword" id="confirmPassword" class="form-control" placeholder="Confirm Password" value="{{ confirmPassword }}">
           </div>
-          <button type="submit" class="btn btn-primary btn-block">Register</button>
-          <a href="/auth/facebook" class="btn btn-info btn-block">Facebook Login</a>
+          <button type="submit" class="btn btn-primary btn-block">註冊</button>
+          <a href="/auth/facebook" class="btn btn-info btn-block">Facebook 登入</a>
         </form>
         <p class="lead mt-4">
-          Have An Account? <a href="/users/login">Login</a>
+          有帳號嗎? <a href="/users/login">登入</a>
         </p>
     </div>
   </div>

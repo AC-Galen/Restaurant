@@ -1,7 +1,9 @@
+
 <!-- search bar -->
 <div class="container search-bar">
   <div class="search-bar-outer">
     <div class="row search-bar-inner justify-content-around">
+      <a href="/restaurants/new" class="btn btn-success m-auto">新增餐廳</a>
       <form action="/search">
         <h4 class="mb-2 search-bar-title">尋找餐廳：</h4>
         <div class="input-group">
@@ -14,6 +16,7 @@
           </div>
         </div>
       </form>
+      
       <form action="./restaurants">
         <h4 class="mb-2" for="sort">種類</h4>
         <select id="sort" name="sort" onchange="form.submit()">
