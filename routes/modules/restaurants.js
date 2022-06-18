@@ -21,7 +21,7 @@ router.post('/', (req, res) => {
   restaurantData.userId = req.user._id 
   Restaurant.create(restaurantData)
     .then(() => res.redirect('/'))
-    .catch(error => console.error(error))
+    .catch(err => console.log(err))
 })
 
 router.get("/:id/edit", (req, res) => {
