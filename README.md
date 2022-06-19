@@ -27,7 +27,7 @@
 ### Clone
 ```
 git clone https://github.com/AC-Galen/Restaurant.git
-cd restaurant_list
+cd Restaurant
 npm install
 ```
 
