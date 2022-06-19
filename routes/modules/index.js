@@ -54,6 +54,8 @@ router.get('/restaurants', (req, res) => {
       break
   }
   Restaurant.find() 
+    const userId = req.user._id
+    Restaurant.find({ userId })
     .lean() 
     .sort(sortby)
     .then(restaurantsData => res.render('index', { restaurantsData })) 
