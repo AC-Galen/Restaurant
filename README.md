@@ -1,5 +1,5 @@
 # 餐廳清單
-
+![alt text]()
 ## Features/功能
 * 使用者可以新增一家餐廳
 * 使用者可以瀏覽一家餐廳的詳細資訊
@@ -35,6 +35,10 @@ npm install
 ### Run/執行專案
 ```
 npm run start
+```
+### Add Seeders/ 建立種子資料
+```
+npm run seed
 ```
 若成功開啟伺服器你會看到：
 ```
